@@ -1,0 +1,314 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+body{
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+  width: 100%;
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: sticky;
+  top: -1;
+  background: rgb(5,173,62);
+  background: radial-gradient(circle, rgba(5,173,62,1) 4%, rgba(9,121,19,0.9346113445378151) 54%, rgba(28,54,2,1) 100%);
+}
+
+header h1 a{
+  text-decoration: none;
+  color: #fff;
+  transition: all 0.2s ease;
+}
+header h1 a:hover{
+  color: #222;
+}
+
+
+/* header ends here */
+.showcase{
+  width: 100%;
+  height: 90vh;
+  background: rgb(5,173,62);
+  background: radial-gradient(circle, rgba(5,173,62,1) 4%, rgba(9,121,19,0.9346113445378151) 54%, rgba(28,54,2,1) 100%);
+  display: flex;
+  justify-content: center;
+  color: #fff;
+}
+
+.showcase div{
+  width: 350px;
+  height: 400px;
+  margin-top: 140px;
+  margin-left: 24px;
+  box-shadow: -2px 8px 33px -14px rgba(5,26,2,0.4);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.showcase div h1{
+  font-size: 45px;
+  text-transform: capitalize;
+  padding: 12px;
+}
+
+.showcase div p{
+  text-transform: capitalize;
+  padding: 4px;
+}
+
+.showcase .img-container{
+  width: 680px;
+  height: 409px;
+  margin-top: 100px;
+  box-shadow: -2px 8px 33px -14px rgba(5,26,2,0.6);
+}
+
+
+
+.cta{
+  width: 100%;
+  height: 60vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgb(255,255,255);
+background: radial-gradient(circle, rgba(255,255,255,1) 4%, rgba(255,255,255,0.946113445378151) 54%, rgba(238,238,238,1) 100%);
+}
+
+.cta div{
+  width: 350px;
+  height: 200px;
+  box-shadow: -2px 8px 33px -14px rgba(5,26,2,0.4);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column-reverse;
+}
+
+.cta div a{
+  text-decoration: none;
+  padding: 12px;
+  color: #222;
+  font-size: 24px;
+}
+
+.cta div a:hover{
+  transition: all 0.2s ease;
+  color: green;
+}
+
+#signup{
+  width: 100%;
+  height: 90vh;
+  background: radial-gradient(circle, rgba(255,255,255,1) 4%, rgba(255,255,255,0.946113445378151) 54%, rgba(238,238,238,1) 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#signup form{
+  width: 27%;
+  height: 50vh;
+  background: rgba(144, 238, 144, 0.279);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#signup form input{
+  width: 300px;
+  height: 34px;
+  margin: 12px;
+  outline: none;
+  border: none;
+  padding-left: 12px;
+  font-size: 14px;
+}
+
+
+#login{
+  width: 100%;
+  height: 90vh;
+  background: radial-gradient(circle, rgba(255,255,255,1) 4%, rgba(255,255,255,0.946113445378151) 54%, rgba(238,238,238,1) 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#login form{
+  width: 27%;
+  height: 50vh;
+  background: rgba(144, 238, 144, 0.279);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#login form input{
+  width: 300px;
+  height: 34px;
+  margin: 12px;
+  outline: none;
+  border: none;
+  padding-left: 12px;
+  font-size: 14px;
+}
+
+
+footer{
+  height: 20vh;
+  background: #222;
+}
+
+.dashboard{
+  width: 100%;
+  height: 90vh;
+  background: radial-gradient(circle, rgba(255,255,255,1) 4%, rgba(255,255,255,0.946113445378151) 54%, rgba(238,238,238,1) 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.profile{
+  height: 100%;
+  width: 20%;
+  background: radial-gradient(circle, rgba(255,255,255,1) 4%, rgba(255,255,255,0.946113445378151) 54%, rgba(238,238,238,1) 100%);
+  color: #222;
+}
+
+.profile h1{
+  margin-top: 100px;
+  padding-left: 32px;
+  padding-bottom: 100px;
+  font-size: 32px;
+}
+
+.profile li a{
+  text-decoration:  none;
+  padding-left: 32px;
+  color: #222;
+}
+.report{
+  height: 100%;
+  width: 80%;
+  background: radial-gradient(circle, rgba(255,255,255,1) 4%, rgba(255,255,255,0.946113445378151) 54%, rgba(238,238,238,1) 100%);
+}
+
+.reports{
+  width: 100%;
+  height: 38%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.reports div{
+  width: 200px;
+  height: 200px;
+  border-radius: 10px;
+  box-shadow: -2px 8px 33px -14px rgba(5,26,2,0.4);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.chart{
+  height: 62%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#add_new_patient{
+  width: 100%;
+  height: 90vh;
+  background: radial-gradient(circle, rgba(255,255,255,1) 4%, rgba(255,255,255,0.946113445378151) 54%, rgba(238,238,238,1) 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+#add_new_patient h1{
+  padding: 45px;
+}
+
+#add_new_patient form{
+  width: 27%;
+  height: 50vh;
+  background: rgba(144, 238, 144, 0.279);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#add_new_patient form input{
+  width: 300px;
+  height: 34px;
+  margin: 12px;
+  outline: none;
+  border: none;
+  padding-left: 12px;
+  font-size: 14px;
+}
+
+#add_new_patient form select{
+  width: 300px;
+  height: 34px;
+  margin: 12px;
+  outline: none;
+  border: none;
+  padding-left: 12px;
+  font-size: 14px;
+}
+
+
+
+#records{
+  width: 100%;
+  height: 90vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background: radial-gradient(circle, rgba(255,255,255,1) 4%, rgba(255,255,255,0.946113445378151) 54%, rgba(238,238,238,1) 100%);
+}
+
+#records h1{
+  padding: 34px;
+}
+
+#records div{
+  width: 600px;
+  height: 180px;
+  margin: 12px;
+  background: rgba(144, 238, 144, 0.279);
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-around;
+  flex-direction: column;
+  padding-left: 24px;
+}
+
+
+
+#reg{
+  width: 100%;
+  height: 90vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background: radial-gradient(circle, rgba(255,255,255,1) 4%, rgba(255,255,255,0.946113445378151) 54%, rgba(238,238,238,1) 100%);
+}
